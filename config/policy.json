@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1.0",
+  "project": "Azure-Resource-Drift-Detector",
+  "rank": 39,
+  "action": "plan_azure_resource_drift_detector",
+  "allowedCredentialModes": [
+    "managed_identity",
+    "workload_identity"
+  ],
+  "protectedTargets": [
+    "production",
+    "break-glass"
+  ],
+  "allowedTenantIds": [
+    "tenant-a"
+  ]
+}
