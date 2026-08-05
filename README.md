@@ -2,6 +2,19 @@
 
 Detect meaningful divergence from approved Azure baselines quickly and route it to accountable owners.
 
+## Project metadata
+
+The metadata below is derived from tracked source, manifests, and infrastructure
+files. It describes what this repository includes; live-service integration remains
+bounded by the documented deployment and validation limitations.
+
+| Category | Included |
+| --- | --- |
+| Platforms | Microsoft Azure; GitHub Actions |
+| Services and stack | Resource Graph; Azure Automation; Logic Apps; Teams; Storage |
+| Languages and formats | Python; Bicep; Bicep parameters; Bash; JSON; YAML |
+| Delivery and IaC | Bicep + `.bicepparam`; GitHub Actions CI; YAML configuration; Python validation/tests |
+
 ## Problem statement
 
 A scheduled baseline comparison produces tenant-scoped, deduplicated drift evidence and an approved notification plan without embedding credentials or enabling public access.
